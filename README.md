@@ -19,11 +19,10 @@
 > - **Login Page**
 
 ![sign-up](https://github.com/hey-its-d2t2/SignInSignUp-JavaProj/assets/63626210/e239b16a-aa04-46ed-9e2a-46f81a489d67)
-![Sign-In](https://github.com/hey-its-d2t2/SignInSignUp-JavaProj/assets/63626210/0d728182-9735-4234-83d7-ba68537b8d38)
 > - **Signup Page**
 
 ![Sign-In](https://github.com/hey-its-d2t2/SignInSignUp-JavaProj/assets/63626210/02395999-2db3-4e52-a97b-385f7bf1ae27)
-![sign-up](https://github.com/hey-its-d2t2/SignInSignUp-JavaProj/assets/63626210/6f42e566-2dde-4412-8461-ba729fe70010)
+
 > - **Home Page**
 
 ![Home](https://github.com/hey-its-d2t2/SignInSignUp-JavaProj/assets/63626210/9aa8ab4b-7200-468c-85bc-90fdbbb59c1e)
