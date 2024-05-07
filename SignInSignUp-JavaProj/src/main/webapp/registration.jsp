@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<input type="hidden" id= "status" value = "<%= request.getAttribute("status")%>" >
 
 	<div class="main">
 
@@ -23,8 +24,8 @@
 				<div class="signup-content">
 					<div class="signup-form">
 						<h2 class="form-title">Sign up</h2>
-					
-						<form method="" action="" class="register-form"
+
+						<form method="post" action="RegistrationSrv" class="register-form"
 							id="register-form">
 							<div class="form-group">
 								<label for="name"><i
@@ -41,7 +42,7 @@
 							</div>
 							<div class="form-group">
 								<label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
-								<input type="password" name="re_pass" id="re_pass"
+								<input type="password" name="password" id="re_pass"
 									placeholder="Repeat your password" />
 							</div>
 							<div class="form-group">
@@ -78,6 +79,18 @@
 	<!-- JS -->
 	<script src="vendor/jquery/jquery.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<link rel="stylesheet" href="alert/dist/sweetalert.css">
+	<script type="text/javascript">
+	 var status = document.getElementById("success").value;
+	 if(status == "success")
+		{
+		 swal("Congrats","Account created succesfully!...","success");
+		}
+	 else{
+		 swal("OOps","Account creation failed!...","failed");
+	 }
+	</script>
 
 </body>
 </html>
