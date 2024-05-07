@@ -31,7 +31,7 @@ public class LoginSrv extends HttpServlet {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			String url = "jdbc:mysql://localhost:3306/SignInSignUpProj?useSSL=false";
 			String user = "root";
-			String pas = "jinu0292";
+			String pas = "root";
 			con = DriverManager.getConnection(url, user, pas);
 
 			String query = "select * from userDetais where uemai=? and upswd=?";
